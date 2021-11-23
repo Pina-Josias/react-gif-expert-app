@@ -21,11 +21,13 @@ const AddCategory = ({ setCategories }) => {
         }
         return elements;
       });
+      setInputValue("");
     }
   };
   return (
     <>
       <h2>Add Category</h2>
+      <p>{inputValue}</p>
       <form onSubmit={handleSubmit}>
         <input
           type="text"

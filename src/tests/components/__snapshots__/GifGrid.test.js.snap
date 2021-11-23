@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas sobre el componente <GifGrid/> debe mostrar el componente <GifGrid/> correctamente 1`] = `
+<Fragment>
+  <h3>
+    Saitama
+  </h3>
+  <div
+    className="card-grid animate__animated animate__zoomInUp"
+  >
+    Cargando...
+  </div>
+</Fragment>
+`;
+
+exports[`Pruebas sobre el componente <GifGrid/> debe mostrar items cuando se carga la data 1`] = `
+<Fragment>
+  <h3>
+    Saitama
+  </h3>
+  <div
+    className="card-grid animate__animated animate__zoomInUp"
+  >
+    <GifGridItem
+      id="34234"
+      key="34234"
+      title="test"
+      url="http://localhost/name"
+    />
+    <GifGridItem
+      id="1234"
+      key="1234"
+      title="test"
+      url="http://localhost/name"
+    />
+  </div>
+</Fragment>
+`;
